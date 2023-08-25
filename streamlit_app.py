@@ -87,7 +87,7 @@ if st.button("Analysis "):
         # Langkah 2: Case Folding
         case_folded_input = cleaned_input.lower()
 
-         preprocessed_steps.append("2. Case Folding: " + case_folded_input)
+        preprocessed_steps.append("2. Case Folding: " + case_folded_input)
 
         # Langkah 3: Tokenisasi
         sample_words = word_tokenize(case_folded_input)
